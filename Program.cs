@@ -84,6 +84,18 @@ namespace SwinAdventure
             Console.WriteLine($"You have regained conciousness after falling into the waste chambers!\n" +
                 $"Currently, you are in: {DarkRoom.FullDescription}\nWhere would you like to look?\n");
 
+            void DisplayInstructions()
+            {
+                Console.WriteLine("\nValid commands:\n" +
+                    "look - observe the room or items\n" +
+                    "move/go/head/leave <direction> - travel north, south, east or west\n" +
+                    "read letter, use key, use badge, talk tessa, disable grid, fight tessa\n" +
+                    "spare tessa, leave tessa, use gem, fight vadun/attack, recover holocron, destroy holocron\n" +
+                    "Type 'help' at any time to see this list again.\n");
+            }
+
+            DisplayInstructions();
+
             string Commands;
             CommandProcessor commandprocessor = new CommandProcessor();    
             bool gameRunning = true;
@@ -99,11 +111,14 @@ namespace SwinAdventure
                 bool TemporaryCustomCommand = false;
                 switch (Commands)
                 {
+                    case "help":
+                        DisplayInstructions();
+                        TemporaryCustomCommand = true; break;
                     case "read letter":
                         Console.WriteLine("\nI am now stuck in this star destroyer with no choice but to carry on with my mission. The new galactic empire has been \nsearching endlessly" +
                         " for the Jedi holocron. A device containing a list of the locations of Force-sensitive children \ninside of it. They are planning to eliminate any possibility" +
                         " of the jedi to rise again. I must stop them before it's \ntoo late. I will be leaving my Lightsaber and blaster in this bag to put a disguise on and inflitrate" +
-                        " this ship.\nIf you are reading this then my mission has failed. May the force be with you. -Luke Skywalker\n"); 
+                        " this ship.\nIf you are reading this then my mission has failed. May the force be with you. -Luke Skywalker\n");
                         TemporaryCustomCommand = true; break;
 
                     case "use key":
@@ -239,6 +254,11 @@ namespace SwinAdventure
                 if (finalChoiceMade)
                 {
                     gameRunning = false;
+                }
+
+                if (gameRunning)
+                {
+                    DisplayInstructions();
                 }
 
             } while (gameRunning == true);
