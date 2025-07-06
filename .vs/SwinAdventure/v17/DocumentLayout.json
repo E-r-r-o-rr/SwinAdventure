@@ -1,0 +1,118 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\deyaa\\Downloads\\Bachelor of engineering\\2023\\Semester 2\\Object Oriented Programming\\Task 2.4 CaseMain\\SwinAdventure\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{927E01EA-82A9-46E0-96F9-57B27AD05302}|SwinAdventure.csproj|c:\\users\\deyaa\\downloads\\bachelor of engineering\\2023\\semester 2\\object oriented programming\\task 2.4 casemain\\swinadventure\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{927E01EA-82A9-46E0-96F9-57B27AD05302}|SwinAdventure.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{927E01EA-82A9-46E0-96F9-57B27AD05302}|SwinAdventure.csproj|c:\\users\\deyaa\\downloads\\bachelor of engineering\\2023\\semester 2\\object oriented programming\\task 2.4 casemain\\swinadventure\\path.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{927E01EA-82A9-46E0-96F9-57B27AD05302}|SwinAdventure.csproj|solutionrelative:path.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{927E01EA-82A9-46E0-96F9-57B27AD05302}|SwinAdventure.csproj|c:\\users\\deyaa\\downloads\\bachelor of engineering\\2023\\semester 2\\object oriented programming\\task 2.4 casemain\\swinadventure\\identifiableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{927E01EA-82A9-46E0-96F9-57B27AD05302}|SwinAdventure.csproj|solutionrelative:identifiableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{927E01EA-82A9-46E0-96F9-57B27AD05302}|SwinAdventure.csproj|c:\\users\\deyaa\\downloads\\bachelor of engineering\\2023\\semester 2\\object oriented programming\\task 2.4 casemain\\swinadventure\\movecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{927E01EA-82A9-46E0-96F9-57B27AD05302}|SwinAdventure.csproj|solutionrelative:movecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{927E01EA-82A9-46E0-96F9-57B27AD05302}|SwinAdventure.csproj|c:\\users\\deyaa\\downloads\\bachelor of engineering\\2023\\semester 2\\object oriented programming\\task 2.4 casemain\\swinadventure\\commandprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{927E01EA-82A9-46E0-96F9-57B27AD05302}|SwinAdventure.csproj|solutionrelative:commandprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6156D2EE-1F2A-4321-B838-C08F752C64C6}|..\\NUnitTests\\NUnitTests.csproj|c:\\users\\deyaa\\downloads\\bachelor of engineering\\2023\\semester 2\\object oriented programming\\task 2.4 casemain\\nunittests\\commandprocessortest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IdentifiableObject.cs",
+              "DocumentMoniker": "C:\\Users\\deyaa\\Downloads\\Bachelor of engineering\\2023\\Semester 2\\Object Oriented Programming\\Task 2.4 CaseMain\\SwinAdventure\\IdentifiableObject.cs",
+              "RelativeDocumentMoniker": "IdentifiableObject.cs",
+              "ToolTip": "C:\\Users\\deyaa\\Downloads\\Bachelor of engineering\\2023\\Semester 2\\Object Oriented Programming\\Task 2.4 CaseMain\\SwinAdventure\\IdentifiableObject.cs",
+              "RelativeToolTip": "IdentifiableObject.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T01:58:00.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Path.cs",
+              "DocumentMoniker": "C:\\Users\\deyaa\\Downloads\\Bachelor of engineering\\2023\\Semester 2\\Object Oriented Programming\\Task 2.4 CaseMain\\SwinAdventure\\Path.cs",
+              "RelativeDocumentMoniker": "Path.cs",
+              "ToolTip": "C:\\Users\\deyaa\\Downloads\\Bachelor of engineering\\2023\\Semester 2\\Object Oriented Programming\\Task 2.4 CaseMain\\SwinAdventure\\Path.cs",
+              "RelativeToolTip": "Path.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-27T23:50:05.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MoveCommand.cs",
+              "DocumentMoniker": "C:\\Users\\deyaa\\Downloads\\Bachelor of engineering\\2023\\Semester 2\\Object Oriented Programming\\Task 2.4 CaseMain\\SwinAdventure\\MoveCommand.cs",
+              "RelativeDocumentMoniker": "MoveCommand.cs",
+              "ToolTip": "C:\\Users\\deyaa\\Downloads\\Bachelor of engineering\\2023\\Semester 2\\Object Oriented Programming\\Task 2.4 CaseMain\\SwinAdventure\\MoveCommand.cs",
+              "RelativeToolTip": "MoveCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-27T23:48:50.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\deyaa\\Downloads\\Bachelor of engineering\\2023\\Semester 2\\Object Oriented Programming\\Task 2.4 CaseMain\\SwinAdventure\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\deyaa\\Downloads\\Bachelor of engineering\\2023\\Semester 2\\Object Oriented Programming\\Task 2.4 CaseMain\\SwinAdventure\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-27T23:22:04.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CommandProcessorTest.cs",
+              "DocumentMoniker": "C:\\Users\\deyaa\\Downloads\\Bachelor of engineering\\2023\\Semester 2\\Object Oriented Programming\\Task 2.4 CaseMain\\NUnitTests\\CommandProcessorTest.cs",
+              "RelativeDocumentMoniker": "..\\NUnitTests\\CommandProcessorTest.cs",
+              "ToolTip": "C:\\Users\\deyaa\\Downloads\\Bachelor of engineering\\2023\\Semester 2\\Object Oriented Programming\\Task 2.4 CaseMain\\NUnitTests\\CommandProcessorTest.cs",
+              "RelativeToolTip": "..\\NUnitTests\\CommandProcessorTest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-27T23:22:01.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CommandProcessor.cs",
+              "DocumentMoniker": "C:\\Users\\deyaa\\Downloads\\Bachelor of engineering\\2023\\Semester 2\\Object Oriented Programming\\Task 2.4 CaseMain\\SwinAdventure\\CommandProcessor.cs",
+              "RelativeDocumentMoniker": "CommandProcessor.cs",
+              "ToolTip": "C:\\Users\\deyaa\\Downloads\\Bachelor of engineering\\2023\\Semester 2\\Object Oriented Programming\\Task 2.4 CaseMain\\SwinAdventure\\CommandProcessor.cs",
+              "RelativeToolTip": "CommandProcessor.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACUAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-26T23:13:33.149Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
