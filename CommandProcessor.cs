@@ -16,6 +16,7 @@ namespace SwinAdventure
             _commands = new List<Command>(); 
             _commands.Add(new LookCommand());
             _commands.Add(new MoveCommand());
+            _commands.Add(new TakeCommand());
         }
 
         public string Execute(Player p, string commandInput)
@@ -32,7 +33,8 @@ namespace SwinAdventure
 
             return $"\nUnknown Command: {command[0]}\nValid commands are:\nmove, go, head, leave: " +
                     $"To move across locations with directions: North/Up/N, South/Down/S, East/Right/E, West/Left/E" +
-                    $"\nlook/look at (item)/look at (item) in (container): To observe your surroundings\n";
+                    $"\nlook/look at (item)/look at (item) in (container): To observe your surroundings" +
+                    $"\ntake <item>: pick up an item\n";
         }
     }
 }   

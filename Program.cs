@@ -84,17 +84,39 @@ namespace SwinAdventure
             Console.WriteLine($"You have regained conciousness after falling into the waste chambers!\n" +
                 $"Currently, you are in: {DarkRoom.FullDescription}\nWhere would you like to look?\n");
 
-            void DisplayInstructions()
+            void DisplayInstructions(Player player)
             {
-                Console.WriteLine("\nValid commands:\n" +
-                    "look - observe the room or items\n" +
-                    "move/go/head/leave <direction> - travel north, south, east or west\n" +
-                    "read letter, use key, use badge, talk tessa, disable grid, fight tessa\n" +
-                    "spare tessa, leave tessa, use gem, fight vadun/attack, recover holocron, destroy holocron\n" +
-                    "Type 'help' at any time to see this list again.\n");
+                Console.WriteLine("\nValid commands:");
+                Console.WriteLine("look - observe the room or items");
+                Console.WriteLine("move/go/head/leave <direction> - travel north, south, east or west");
+                Console.WriteLine("take <item> - pick up an item");
+
+                switch (player.CurrentLocation.Name)
+                {
+                    case "dark room":
+                        Console.WriteLine("read letter, use key");
+                        break;
+                    case "Imperial Corridor":
+                        Console.WriteLine("use badge, talk tessa");
+                        break;
+                    case "Maintenance Shaft":
+                        Console.WriteLine("disable grid");
+                        break;
+                    case "Engineering Bay":
+                        Console.WriteLine("fight tessa, spare tessa, leave tessa");
+                        break;
+                    case "Vault Antechamber":
+                        Console.WriteLine("use gem");
+                        break;
+                    case "Holocron Chamber":
+                        Console.WriteLine("fight vadun/attack, recover holocron, destroy holocron");
+                        break;
+                }
+
+                Console.WriteLine("Type 'help' at any time to see this list again.\n");
             }
 
-            DisplayInstructions();
+            DisplayInstructions(playerOne);
 
             string Commands;
             CommandProcessor commandprocessor = new CommandProcessor();    
@@ -112,7 +134,7 @@ namespace SwinAdventure
                 switch (Commands)
                 {
                     case "help":
-                        DisplayInstructions();
+                        DisplayInstructions(playerOne);
                         TemporaryCustomCommand = true; break;
                     case "read letter":
                         Console.WriteLine("\nI am now stuck in this star destroyer with no choice but to carry on with my mission. The new galactic empire has been \nsearching endlessly" +
@@ -258,7 +280,7 @@ namespace SwinAdventure
 
                 if (gameRunning)
                 {
-                    DisplayInstructions();
+                    DisplayInstructions(playerOne);
                 }
 
             } while (gameRunning == true);
