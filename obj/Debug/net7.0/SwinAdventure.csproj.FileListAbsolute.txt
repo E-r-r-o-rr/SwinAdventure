@@ -26,3 +26,4 @@ C:\Users\deyaa\Downloads\Bachelor of engineering\2023\Semester 2\Object Oriented
 C:\Users\deyaa\Downloads\Bachelor of engineering\2023\Semester 2\Object Oriented Programming\Task 2.4 CaseMain\SwinAdventure\obj\Debug\net7.0\SwinAdventure.pdb
 C:\Users\deyaa\Downloads\Bachelor of engineering\2023\Semester 2\Object Oriented Programming\Task 2.4 CaseMain\SwinAdventure\obj\Debug\net7.0\SwinAdventure.genruntimeconfig.cache
 C:\Users\deyaa\Downloads\Bachelor of engineering\2023\Semester 2\Object Oriented Programming\Task 2.4 CaseMain\SwinAdventure\obj\Debug\net7.0\ref\SwinAdventure.dll
+C:\Users\deyaa\Downloads\Bachelor of engineering\2023\Semester 2\Object Oriented Programming\Task 2.4 CaseMain\SwinAdventure\obj\Debug\net7.0\SwinAdventure.sourcelink.json
